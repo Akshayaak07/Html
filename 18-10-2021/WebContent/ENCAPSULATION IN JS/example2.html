@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+class Student 
+{ 
+constructor() 
+{ 
+var name; 
+var marks; 
+} 
+
+getName() 
+{ 
+return this.name; 
+} 
+setName(name) 
+{ 
+this.name=name; 
+} 
+
+getMarks() 
+{ 
+return this.marks; 
+} 
+setMarks(marks) 
+{ 
+if(marks < 0 || marks > 100) 
+{ 
+alert("Invalid Marks"); 
+} 
+else
+{ 
+this.marks=marks; 
+} 
+} 
+
+} 
+
+var st = new Student(); 
+st.setName("John"); 
+st.setMarks(170); 
+
+document.writeln(st.getName()+" "+st.getMarks()); 
+
+</script>
+
+</body>
+</html>

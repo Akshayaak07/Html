@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+class Address
+{
+	constructor(address)
+	{
+		this.address="Kallakurichi";
+	}
+	
+}
+class Employee extends Address
+{
+	constructor(id,name)
+	{
+		super();
+		this.id=1111;
+		this.name="Akshaya";
+	}
+	display()
+	{
+		return this.id+"<br>"+this.name+"<br> "+this.address;
+	}
+}
+
+
+var emp = new Employee();
+
+document.write(emp.display());
+
+
+
+</script>
+
+</body>
+</html>

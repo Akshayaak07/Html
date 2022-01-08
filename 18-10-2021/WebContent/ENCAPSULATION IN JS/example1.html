@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+class Employee
+{ 
+constructor() 
+{ 
+var id; 
+var name;
+var salary;
+} 
+
+getId() 
+{ 
+return this.id; 
+}
+setId(id)
+{
+this.id=id;
+}
+getName()
+{
+	return this.name;
+}
+setName(name)
+{
+	this.name=name;
+}
+getSalary()
+{
+	return this.salary;
+}
+setSalary(salary)
+{
+	this.salary=salary;
+}
+
+}
+var emp =new Employee;
+
+emp.setId(1111);
+emp.setName("Akshaya");
+emp.setSalary(35900.675);
+
+document.write(emp.getId()+"<br>");
+document.write(emp.getName()+"<br>");
+document.write(emp.getSalary()+"<br>");
+
+
+
+</script>
+
+</body>
+</html>

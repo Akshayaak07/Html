@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+class A 
+{ 
+         display() 
+       { 
+                document.writeln("A is invoked<br>"); 
+        } 
+} 
+
+class B extends A 
+{ 
+         display() 
+     { 
+              document.writeln("B is invoked"); 
+      } 
+} 
+var a=[new A(), new B()] 
+
+a.forEach (function(msg) 
+{ 
+           msg.display(); 
+}); 
+
+
+
+
+</script>
+
+</body>
+</html>
