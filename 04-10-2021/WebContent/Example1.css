@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+p,h5,strong
+{
+	color:blue;
+}
+h5
+{
+	border:1px dashed;
+}
+p
+{
+	word-spacing: 5px;
+	line-height: 1.8;
+	text-indent: 50px;
+	text-transform: capitalize;
+	color:rgb(255,0,0);
+}
+strong
+{
+	color: #808080;
+}
+h5
+{
+	color: #ff0000;
+}
+h5
+{
+	text-decoration: underline;	
+}
+strong
+{
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
